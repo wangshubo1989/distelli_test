@@ -1,4 +1,4 @@
-wangshubo1989/test:
+wangshubo1989/distelli_test:
   # Distelli Manifest example
   # this example assumes the build and deploy servers are:
   # The same architecture (32 vs 64 bit)
