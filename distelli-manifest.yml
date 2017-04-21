@@ -1,4 +1,4 @@
-wangshubo1989/distelli_test:
+Ôªøwangshubo1989/distelli_test:
   # Distelli Manifest example
   # this example assumes the build and deploy servers are:
   # The same architecture (32 vs 64 bit)
@@ -7,16 +7,16 @@ wangshubo1989/distelli_test:
   #
 
   PreRelease:
-    - echo "®C--Beginning PreRelease---"
+    - echo "‚Äì--Beginning PreRelease---"
     - echo "--Installing build dependencies--"
     - echo "-Updating apt-get-"
     - sudo apt-get -y update
     - echo "-Installing GoLang-"
     - sudo apt-get -y install golang
-    - echo °∞--Building--°±
+    - echo ‚Äú--Building--‚Äù
     - cd src
     - go build -o ../bin/server
-    - echo °∞--Testing--°±
+    - echo ‚Äú--Testing--‚Äù
     - go test
 
   PkgInclude:
